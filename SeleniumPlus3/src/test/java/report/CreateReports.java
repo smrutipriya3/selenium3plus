@@ -28,7 +28,7 @@ public class CreateReports {
 	  driver.get("http://newtours.demoaut.com");
 	  //String title=driver.getTitle();
 	  
-	 if( driver.getTitle().contains("Welcome: Mercury Tours"))
+	 if( driver.getTitle().contains("Welcome: Mercury Tours1"))
 	 {
 		test.log(LogStatus.PASS, "If you have navigated to Homepage successfully.");
 	 }
